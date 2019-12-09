@@ -25,7 +25,8 @@ body {
 
 .form-wrap {
     margin-top: 40px;
-    border: 1px solid #000;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: 1px solid #777;
     max-width: 420px;
     margin-right: auto;
     margin-left: auto;
@@ -34,14 +35,17 @@ body {
 }
 
 label {
+    margin-top: 20px;
     display: block;
     text-align: left;
 }
 
 input {
+    margin-top: 6px;
     width: 100%;
     padding: 8px;
     margin-bottom: 20px;
+    border-radius: 4px;
 }
 
 .tel-margin {
@@ -51,7 +55,7 @@ input {
 .rates {
     text-align: left;
     font-size: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 h1 {
@@ -64,6 +68,10 @@ h2 {
     font-weight: 100;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:link {
     color: #008cff;
   }
@@ -74,4 +82,14 @@ a:link {
   
   a:hover {
     border-bottom: 1px solid #008cff;
+  }
+
+  .create-btn {
+      width: 100%;
+      padding: 14px;
+      margin-top: 20px;
+      background-color: #0077C5;
+      color: #FFF;
+      font-weight: 400;
+      font-size: 18px;
   }
