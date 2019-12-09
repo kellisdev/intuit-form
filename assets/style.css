@@ -93,3 +93,15 @@ a:link {
       font-weight: 400;
       font-size: 18px;
   }
+
+  .terms-privacy {
+      font-style: italic;
+      margin: 40px 20px 40px 20px;
+      font-size: 14px;
+  }
+
+  .captcha {
+      font-size: 10px;
+      background-color: #ECEEF1;
+      max-width: 420px;
+  }
